@@ -1,0 +1,5 @@
+file,mode,total_prompts,successful_attacks,attack_success_rate,blocked_by_input,blocked_by_output,relative_asr_reduction
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/smoke_test_baseline_results.csv,baseline,176,98,0.5568181818181818,0,0,0.0
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/smoke_test_input_patch_results.csv,input_patch,176,96,0.5454545454545454,7,0,0.020408163265306107
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/smoke_test_output_patch_results.csv,output_patch,176,0,0.0,0,97,1.0
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/smoke_test_combined_patch_results.csv,combined_patch,176,0,0.0,7,95,1.0

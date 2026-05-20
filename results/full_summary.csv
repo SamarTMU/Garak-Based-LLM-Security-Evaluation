@@ -1,0 +1,5 @@
+file,mode,total_prompts,successful_attacks,attack_success_rate,blocked_by_input,blocked_by_output,relative_asr_reduction
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/full_baseline_results.csv,baseline,1024,341,0.3330078125,0,0,0.0
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/full_input_patch_results.csv,input_patch,1024,348,0.33984375,142,0,-0.020527859237536656
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/full_output_patch_results.csv,output_patch,1024,0,0.0,0,344,1.0
+/content/drive/MyDrive/PhD_Project_Self_Healing_LLM_Security/results/full_combined_patch_results.csv,combined_patch,1024,0,0.0,142,338,1.0
