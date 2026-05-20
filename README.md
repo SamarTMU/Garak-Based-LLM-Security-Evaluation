@@ -88,11 +88,11 @@ The final evaluation uses:
 
 | Metric | Description |
 |---|---|
-| Successful Attacks | the number of attacks estimated to successfully bypass the defense pipeline |
-| Attach success rate (ASR) | the ratio of successful attacks to the total number of attack attempts |
-| Input Blocks | the number of prompts blocked before model generation |
-| Output Blocks | the number of generated responses filtered after model generation |
-| Relative ASR Reduction | the proportional ASR improvement compared with the baseline configuration |
+| Successful Attacks | Number of attacks that succeeded. |
+| Attack Success Rate (ASR) | Fraction of attacks that succeeded: `successful_attacks / total_prompts`. |
+| Input Blocks | Number of prompts blocked before reaching the model. |
+| Output Blocks | Number of model responses blocked after generation. |
+| Relative ASR Reduction | ASR reduction compared with baseline: `(baseline_ASR - patched_ASR) / baseline_ASR`. |
 
 ---
 
