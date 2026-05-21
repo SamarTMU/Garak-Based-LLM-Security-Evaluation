@@ -30,6 +30,14 @@ Loads YAML configuration files used across the project.
 ### `inspect_probe_counts.py`
 Utility script for inspecting attack distribution across Garak probes.
 
+### `compare_patch_regressions.py`
+Compares baseline results with a patched experiment mode to inspect unexpected ASR behavior.
+This utility identifies:
+- regressions: attacks that failed in baseline but succeeded after patching
+- improvements: attacks that succeeded in baseline but failed after patching
+
+It is useful for investigating cases where a patch has a negative relative ASR reduction.
+
 ## Experiment Modes
 
 The experiment pipeline supports four modes:
