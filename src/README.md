@@ -4,6 +4,12 @@ This folder contains the main implementation files for the self-healing LLM secu
 
 ## Files
 
+### `config_utils.py`
+Loads YAML configuration files used across the project.
+
+### `inspect_probe_counts.py`
+Utility script for inspecting attack distribution across Garak probes.
+
 ### `run_garak_scan.py`
 Runs the baseline Garak security scan against the target LLM.
 
@@ -23,12 +29,6 @@ Implements the self-healing defenses:
 
 ### `analyze_results.py`
 Computes evaluation metrics and exports qualitative examples.
-
-### `config_utils.py`
-Loads YAML configuration files used across the project.
-
-### `inspect_probe_counts.py`
-Utility script for inspecting attack distribution across Garak probes.
 
 ### `compare_patch_regressions.py`
 Compares baseline results with a patched experiment mode to inspect unexpected ASR behavior.
