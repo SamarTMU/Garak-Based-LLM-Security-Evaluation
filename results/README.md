@@ -79,6 +79,10 @@ Results for the combined defense configuration.
 ### `full_summary.csv`
 Aggregated evaluation metrics across all full-dataset experiment modes.
 
+### `full_dataset_analysis_input_patch_regressions.csv`
+Regression analysis output comparing `full_baseline_results.csv` with `full_input_patch_results.csv`.
+It contains attacks that failed in baseline mode but succeeded under the input-patch mode, helping explain the negative relative ASR reduction observed for the input-only defense.
+
 ---
 
 # Notes
